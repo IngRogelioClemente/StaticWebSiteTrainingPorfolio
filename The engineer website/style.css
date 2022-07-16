@@ -1,0 +1,110 @@
+div {
+  background: lightgrey;
+  text-align: center;
+  width: 960px;
+  margin: auto;
+
+  font-family: monospace;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+}
+
+.head1 {
+  text-align: left;
+  width: 960px;
+  margin: auto;
+
+}
+
+.head3 {
+  width: 555px;
+  text-align: left;
+  margin: auto;
+
+}
+
+.menu {
+  background: black;
+  text-align: left;
+  font-size: 17px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: .5px 0;
+}
+
+.logo {
+  margin: auto;
+  width: 130px;
+  height: 60px;
+  float: left;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+
+}
+
+.menu li{
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+
+}
+.menu ul{
+  display: flex;
+  font-size: 15px;
+}
+
+.menu ul li{
+  padding: 10px;
+}
+
+.menu ul li a:hover{
+  border-bottom: 2px solid white;
+}
+
+.seccion {
+  background: white;
+  margin: 30px;
+  width: 600px;
+  float: left;
+}
+
+.contenido {
+  background: lightsteelblue;
+  margin: 20px;
+  width: 555px;
+  float: center;
+}
+.parrafo {
+  text-align: left;
+  margin: auto;
+  width: 500px;
+}
+
+.columna {
+  background: white;
+  margin: 30px;
+  width: 200px;
+  float: right;
+}
+
+
+.pie {
+  clear: both;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+}
